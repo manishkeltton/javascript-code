@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.btn {
+  margin: 10px 0;
+  height: 40px;
+  width: 180px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: blue;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: rgb(255, 0, 200);
+  outline: 1px solid yellowgreen;
+}
+
+.details{
+  background-color: wheat;
+  width: 80%;
+  padding: 2%;
+  margin: 5% 0 5% 10%;
+  color: rgba(223, 12, 12, 0.952);
+  box-shadow: 10px 10px 20px 5px rgba(66, 16, 247, 0.2);
+}
+
+.chart{
+  height: 100%;
+  width: 80%;
+  padding: 4% 2%;
+  margin: 5% 0 5% 10%;
+  box-shadow: 1px 1px 20px 5px rgba(66, 16, 247, 0.2);
+}
